@@ -8,7 +8,7 @@ import spacy
 path = kagglehub.dataset_download("arhamrumi/amazon-product-reviews")
 
 df=pd.read_csv(path+"/Reviews.csv") #Carga los reviews
-df=df.head(50) #Trae solo 50 revi
+df=df.head(60) #Trae solo 50 revi
 
 nlp = spacy.load("en_core_web_sm") #Se carga Spacy
 
