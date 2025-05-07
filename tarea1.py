@@ -4,7 +4,7 @@ from transformers import pipeline
 import matplotlib.pyplot as plt
 import spacy
 
-
+# patch del dataset en kaggle
 path = kagglehub.dataset_download("arhamrumi/amazon-product-reviews")
 
 df=pd.read_csv(path+"/Reviews.csv") #Carga los reviews
